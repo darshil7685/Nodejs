@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+{{!-- hero section starts --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                    <div class ="row">
+                        <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+                            <h1>We eill help you</h1>
+                            <h1>Grow your business</h1>
+                            <p> We are the team of <span class="bold-dtyle">Professional Developer</span></p>
+                            <button class="btn-style btn-primary">Read more</button>
+                        </div>
+                        <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                            <figure>
+                                <img src="images/growth.svg" alt="hero_image"
+                            </figure>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+{{!-- hero section ends --}}
+
+{{!-- about us starts --}}
+    {{>about}}
+{{!-- about us ends --}}
+
+{{!-- our services starts --}}
+    {{>service}}
+{{!-- our services ends --}}
+
+{{!-- maps starts --}}
+    {{>maps}}
+{{!-- maps ends --}}
+
+{{!-- contct us starts --}}
+    {{>contact}}
+{{!-- contsct us ends --}}
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+     <script src="../js/bootstrap.js" type="text/javascript"></script>
+    
+</body>
+</html>
